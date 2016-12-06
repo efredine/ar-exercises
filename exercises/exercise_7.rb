@@ -10,3 +10,5 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+p Employee.create!(first_name: "Eric", last_name: "Fredine", hourly_rate: 200, store_id: 2)
+p Store.create!(name: "abc", annual_revenue: 10, mens_apparel: nil, womens_apparel: false)
